@@ -1,0 +1,49 @@
+package com.dc.rns.qa.TestCases;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.remote.AndroidMobileCapabilityType;
+import io.appium.java_client.remote.MobileCapabilityType;
+
+public class MyFirstAndroid {
+
+	private static AndroidDriver<WebElement> driver;
+	
+	
+	@BeforeTest
+	public void setup() throws MalformedURLException
+	{
+		
+		DesiredCapabilities cap = new DesiredCapabilities();
+		cap.setCapability(AndroidMobileCapabilityType.PLATFORM_NAME, "ANDROID");
+		cap.setCapability(AndroidMobileCapabilityType.VERSION, "9");
+		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
+		cap.setCapability(AndroidMobileCapabilityType.BROWSER_NAME, "Chrome");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Galaxy A7 (2018)");
+		
+		URL url = new URL("http://127.0.0.1:4723/wd/hub");
+		driver = new AndroidDriver<>(url, cap);
+		
+		driver.get("https://google.com");
+		
+	}
+	
+	
+	@Test
+	public void abc()
+	{
+		System.out.println("my first test");
+		driver.quit();
+	}
+	
+	
+}

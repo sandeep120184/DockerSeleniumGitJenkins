@@ -1,0 +1,20 @@
+package com.dc.rns.qa.TestCases;
+
+import org.testng.annotations.BeforeTest;
+
+import io.appium.java_client.AppiumDriver;
+
+public class MyFirstAndroid {
+
+	private static AppiumDriver<WebElement> driver;
+	
+	@BeforeTest
+	public void setup()
+	{
+		
+		
+		
+	}
+	
+	
+}

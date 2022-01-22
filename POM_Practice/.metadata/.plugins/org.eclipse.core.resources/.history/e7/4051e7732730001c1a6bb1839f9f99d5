@@ -1,0 +1,32 @@
+package com.dc.rns.qa.util;
+
+import org.openqa.selenium.WebElement;
+
+import com.dc.rns.qa.Base.BaseTest;
+
+public class GenericUtil{
+
+	
+	
+	//text fields
+	public void textfield(WebElement Elem, String text ) {
+		if (Elem.isDisplayed()==true) {
+			if (Elem.isEnabled() ==true) {
+				Elem.sendKeys(text);
+							}
+		}
+		
+	}
+
+
+
+
+public void btns(WebElement btns ) {
+	if (Elem.isDisplayed()==true) {
+		if (Elem.isEnabled() ==true) {
+			Elem.sendKeys(text);
+						}
+	}
+	
+}
+}

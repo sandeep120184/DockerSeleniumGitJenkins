@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [SeleniumPOM]" parallel="tests">
+  <test thread-count="2" verbose="0" name="LoginPageTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.dc.rns.qa.TestCases.LoginPageTest">
+        <methods>
+          <include name="dockerselgitjenk"/>
+        </methods>
+      </class> <!-- com.dc.rns.qa.TestCases.LoginPageTest -->
+    </classes>
+  </test> <!-- LoginPageTest(failed) -->
+</suite> <!-- Failed suite [SeleniumPOM] -->

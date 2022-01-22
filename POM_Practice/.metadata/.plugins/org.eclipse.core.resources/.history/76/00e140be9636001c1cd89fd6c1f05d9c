@@ -1,0 +1,34 @@
+package com.dc.rns.qa.TestCases;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.BeforeTest;
+
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.remote.AndroidMobileCapabilityType;
+import io.appium.java_client.remote.MobileCapabilityType;
+
+public class MyFirstAndroid {
+
+	private static AndroidDriver<WebElement> driver;
+	
+	
+	@BeforeTest
+	public void setup()
+	{
+		
+		DesiredCapabilities cap = new DesiredCapabilities();
+		cap.setCapability(AndroidMobileCapabilityType.PLATFORM_NAME, "ANDROID");
+		cap.setCapability(AndroidMobileCapabilityType.VERSION, "9");
+		cap.setCapability(MobileCapabilityType.AUTOMATION_NAME>, "uiautomaor2");
+		cap.setCapability(AndroidMobileCapabilityType.BROWSER_NAME, "Chrome");
+		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Galaxy A7 (2018)");
+		
+		URL url = new URL()
+		
+	}
+	
+	
+}

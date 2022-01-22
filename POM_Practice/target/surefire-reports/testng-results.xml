@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumPOM" duration-ms="14777" started-at="2022-01-22T21:38:10 GST" finished-at="2022-01-22T21:38:25 GST">
+    <groups>
+    </groups>
+    <test name="LoginPageTest" duration-ms="14777" started-at="2022-01-22T21:38:10 GST" finished-at="2022-01-22T21:38:25 GST">
+      <class name="com.dc.rns.qa.TestCases.LoginPageTest">
+        <test-method status="PASS" signature="dockerselgitjenk()[pri:0, instance:com.dc.rns.qa.TestCases.LoginPageTest@6b9651f3]" name="dockerselgitjenk" duration-ms="14704" started-at="2022-01-22T21:38:10 GST" finished-at="2022-01-22T21:38:25 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dockerselgitjenk -->
+      </class> <!-- com.dc.rns.qa.TestCases.LoginPageTest -->
+    </test> <!-- LoginPageTest -->
+  </suite> <!-- SeleniumPOM -->
+</testng-results>

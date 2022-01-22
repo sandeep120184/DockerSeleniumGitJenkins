@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumPOM" duration-ms="88" started-at="2022-01-22T21:31:17 GST" finished-at="2022-01-22T21:31:17 GST">
+    <groups>
+    </groups>
+    <test name="LoginPageTest" duration-ms="88" started-at="2022-01-22T21:31:17 GST" finished-at="2022-01-22T21:31:17 GST">
+      <class name="com.dc.rns.qa.TestCases.LoginPageTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.dc.rns.qa.TestCases.LoginPageTest@44a3ec6b]" name="test" duration-ms="27" started-at="2022-01-22T21:31:17 GST" finished-at="2022-01-22T21:31:17 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.dc.rns.qa.TestCases.LoginPageTest -->
+    </test> <!-- LoginPageTest -->
+  </suite> <!-- SeleniumPOM -->
+</testng-results>

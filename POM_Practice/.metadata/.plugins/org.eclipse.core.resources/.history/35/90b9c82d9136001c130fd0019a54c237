@@ -1,0 +1,12 @@
+package com.dc.rns.qa.TestCases;
+
+public class MyFirstAndroid {
+
+	@BeforeTest
+	public void setup()
+	{
+		
+	}
+	
+	
+}
